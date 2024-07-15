@@ -1,4 +1,7 @@
 # ch341 linux serial driver
+## Update
+This code is modified for Ubuntu 24.04. You should plugout and plugin the cable to make serial working.
+
 ## Description
 
 USB serial driver for USB to UART chip ch340, ch341, etc. In fact Linux mainline kernels have built-in ch341 serial driver since kernel version 2.6.24. The location is: drivers/usb/serial/ch341.c, it's a pity that the built-in driver cannot be kept up to date. We suggest our customers to use this driver.
